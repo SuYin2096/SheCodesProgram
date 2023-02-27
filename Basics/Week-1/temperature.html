@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature</title>
+    <style>
+      div {
+        text-align: center;
+      }
+      h1 {
+        color: blue;
+        font-size: 34px;
+        margin: 0;
+        line-height: 48px;
+      }
+      h2 {
+        font-size: 34px;
+        line-height: 48px;
+        font-weight: 400;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        padding: 10px 0;
+        width: 400px;
+        margin: 0 auto;
+      }
+      li:hover {
+        background-color: rgb(252, 241, 241);
+      }
+      p {
+        font-size: 18px;
+        font-family: monospace;
+        opacity: 0.5;
+      }
+      .change-city {
+        padding: 15px 15px;
+        border: 2px solid blue;
+        border-radius: 40px;
+        font-size: 15px;
+        margin: 20px auto;
+        color: white;
+        background-color: blue;
+        transition: all 200ms ease;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+      }
+      .change-city:hover {
+        background-color: white;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>
+        ⛅<br />
+        Currently 21° in Tokyo
+      </h1>
+      <h2>13° / <strong> 23° </strong></h2>
+      <ul>
+        <li>
+          <h3>🌧Tomorrow</h3>
+          <p>10° / <strong> 22°</strong></p>
+        </li>
+        <li>
+          <h3>🌥 Saturday</h3>
+          <p>15° / <strong> 17° </strong></p>
+        </li>
+        <li>
+          <h3>☀️ Sunday</h3>
+          <p>25° / <strong>28°</strong></p>
+        </li>
+      </ul>
+      <button class="change-city">Change City</button>
+      <p>Code by Su Yin</p>
+    </div>
+  </body>
+</html>
